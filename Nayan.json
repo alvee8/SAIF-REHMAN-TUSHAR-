@@ -9,12 +9,12 @@
   "saveState": true,
   "banMsg": false,
   "adminOnlyMsg": false,
-  "BOTNAME": "nayan-bot",
-  "PREFIX": "/",
+  "BOTNAME": "SAIF-REHMAN-TUSHAR",
+  "PREFIX": ".",
   "react": "☠️",
   "OPERATOR": [
-    "",
-    "100000959749712"
+    "Mrx.Shuvo77",
+    ""
   ],
   "ADMINBOT": [
     "100000959749712",

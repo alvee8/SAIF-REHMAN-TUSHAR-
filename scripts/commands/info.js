@@ -28,19 +28,16 @@ var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
   
 var callback = () => api.sendMessage({body:`
 --------------------------------------------
-𝐍𝐚𝐦𝐞       : 𝐌𝐨𝐡𝐚𝐦𝐦𝐚𝐝 𝐍𝐚𝐲𝐚𝐧
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : 𝐌𝐨𝐡𝐚𝐦𝐦𝐚𝐝 𝐍𝐚𝐲𝐚𝐧
-𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧   : 𝐈𝐬𝐥𝐚𝐦
-𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: 𝐓𝐚𝐧𝐠𝐚𝐢𝐥, 𝐃𝐡𝐚𝐤𝐚
-𝐂𝐮𝐫𝐫𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: 𝐌𝐨𝐲𝐦𝐨𝐧𝐬𝐢𝐧𝐡, 𝐃𝐡𝐚𝐤𝐚 𝐁𝐲𝐩𝐚𝐬𝐬
-𝐆𝐞𝐧𝐝𝐞𝐫.   : 𝐌𝐚𝐥𝐞
-𝐀𝐠𝐞           : 𝟏𝟖+
-𝐑𝐞𝐥𝐚𝐭𝐢𝐨𝐧𝐬𝐡𝐢𝐩 : 𝐒𝐢𝐧𝐠𝐥𝐞
-𝐖𝐨𝐫𝐤        : 𝐒𝐭𝐮𝐝𝐞𝐧𝐭
-𝐆𝐦𝐚𝐢𝐥       : mohammadnayan447@gmail.com
-𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: wa.me/+8801615298449
-𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦  : t.me/MOHAMMADNAYAN
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/www.xnxx.com169`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
+𝐍𝐀𝐌𝐄  :    𝐒𝐀𝐈𝐅 𝐑𝐄𝐇𝐌𝐀𝐍 𝐓𝐔𝐒𝐇𝐀𝐑
+𝐅𝐁 𝐋𝐈𝐍𝐊 :   https://www.facebook.com/share/1AJu6MC4G9/
+𝐑𝐄𝐋𝐈𝐆𝐈𝐎𝐍 :  𝐈𝐒𝐋𝐀𝐌
+𝐆𝐄𝐍𝐃𝐄𝐑   :  𝐌𝐀𝐋𝐄
+𝐀𝐆𝐄       : 𝟏𝟗+
+𝐑𝐄𝐋𝐀𝐓𝐈𝐎𝐍𝐒𝐇𝐈𝐏 : 𝐌𝐀𝐑𝐑𝐈𝐄𝐃 𝐖𝐈𝐓𝐇 𝐒𝐀𝐃𝐈𝐘𝐀
+𝐆𝐌𝐀𝐈𝐋       : 𝐒𝐀𝐈𝐅𝐑𝐄𝐇𝐌𝐀𝐍𝐓𝐔𝐒𝐇𝐀𝐑@𝐆𝐌𝐀𝐈𝐋.𝐂𝐎𝐌
+𝐖𝐏 : wa.me/+𝟎𝟏𝟕𝟑𝟏𝟕𝟑𝟔𝟑𝟕𝟕
+𝐓𝐆  : t.me/𝐄𝐑𝐑𝐈𝐑
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/share/1FHutqf2LA/`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
       return request(encodeURI(`https://graph.facebook.com/100000959749712/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(
 fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
